@@ -2,8 +2,7 @@
   --color-primary: #ecd16f;
 }
 
-body {
-  background: var(--color-primary);
+body {  
   font-family: 'Bitter', serif;
 }
 

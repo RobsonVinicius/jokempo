@@ -1,0 +1,40 @@
+:root {
+  --color-primary: #ecd16f;
+}
+
+body {
+  background: var(--color-primary);
+  font-family: 'Bitter', serif;
+}
+
+.container {
+  width: 960px;
+  margin: 0 auto;
+}
+
+.cabecalho {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cabecalho h1 {
+  color: #616161;
+}
+
+.cabecalho nav a {
+  text-decoration: none;
+  font-size: 1.2em;
+  color: #616161;
+  margin-left: 2em;
+  
+}
+
+.cabecalho nav a:hover {
+  background: #fff;
+  padding: .5em;
+  border-radius: .5em;
+  color: #F5E29B;
+  box-sizing: border-box
+}
+

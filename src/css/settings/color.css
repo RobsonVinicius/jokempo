@@ -1,5 +1,6 @@
 :root {
   --color-primary: #ecd16f;
+  --color-second: #616161;
 }
 
 body {  
@@ -17,16 +18,9 @@ body {
   align-items: center;
 }
 
-.cabecalho h1 {
-  color: #616161;
-}
-
-.cabecalho nav a {
-  text-decoration: none;
-  font-size: 1.2em;
-  color: #616161;
-  margin-left: 2em;
-  
+.cabecalho nav a {  
+  font-size: 1.2em;  
+  margin-left: 2em;  
 }
 
 .cabecalho nav a:hover {

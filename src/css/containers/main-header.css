@@ -2,8 +2,10 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+
+  padding-top: var(--gap-smaller);
 }
 
 .main-header > .main-logo {
-  font-size: 2em;
+  font-size: 1.8em;
 }

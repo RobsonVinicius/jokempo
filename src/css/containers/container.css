@@ -1,0 +1,39 @@
+.container {
+  width: 960px;
+  margin: 0 auto;
+}
+
+.main-text {
+  color: var(--color-second);
+  font-family: 'Bitter', serif;
+  text-align: center;      
+  margin-top: 150px;
+}
+
+.main-text1 {
+  font-size: 1.8rem;
+  font-weight: 700;  
+}
+
+.main-text2 {
+  font-size: 1.2rem;
+  margin-top: 1.2rem;
+}
+
+.main-button {
+  display: inline-block;
+  background: #fff;
+  border-radius: 5px;
+  width: 14rem;
+  height: 2.2rem;  
+  margin-top: 60px;
+  font-size: 1.2rem;
+  font-weight: 600;
+  line-height: 2.2rem;
+}
+
+.main-text3 {
+  color: gray;
+  font-weight: 600;
+  padding-top: 1.2rem;
+}

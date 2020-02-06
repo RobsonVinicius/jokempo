@@ -1,6 +1,7 @@
 :root {
   --color-primary: #ecd16f;
   --color-second: #616161;
+  --color-third: #fff;
 }
 
 body {  
@@ -12,14 +13,8 @@ body {
   margin: 0 auto;
 }
 
-.cabecalho {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
 .cabecalho nav a {  
-  font-size: 1.2em;  
+  font-size: 1.1em;  
   margin-left: 2em;  
 }
 
@@ -27,7 +22,6 @@ body {
   background: #fff;
   padding: .5em;
   border-radius: .5em;
-  color: #F5E29B;
-  box-sizing: border-box
+  color: var(--color-primary);  
 }
 

@@ -8,7 +8,7 @@
 }
 
 .primary-button.-white {
-  border: 1px solid var(--color-third);
+  border: 2px solid var(--color-third);
   color: var(--color-third);
   font-family: 'Bitter', serif;
   font-weight: bold;

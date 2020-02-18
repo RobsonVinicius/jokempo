@@ -6,3 +6,11 @@
   font-family: 'Comfortaa', sans-serif;
   font-weight: 500;
 }
+
+.primary-button.-white {
+  border: 1px solid var(--color-third);
+  color: var(--color-third);
+  font-family: 'Bitter', serif;
+  font-weight: bold;
+  
+}

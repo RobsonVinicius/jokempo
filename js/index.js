@@ -25,25 +25,25 @@ let bot = false;
 
 function imprimirImagemJogador1(){
     if(jogadaJogador1 == 'papel'){
-        $campoJogador1.innerHTML = '<img src="papel.png"></img>';
+        $campoJogador1.innerHTML = '<img src="img/papel.png"></img>';
     }
     if(jogadaJogador1 == 'pedra'){
-        $campoJogador1.innerHTML = '<img src="pedra.png"></img>';
+        $campoJogador1.innerHTML = '<img src="img/pedra.png"></img>';
     }
     if(jogadaJogador1 == 'tesoura'){
-        $campoJogador1.innerHTML = '<img src="tesoura.png">';
+        $campoJogador1.innerHTML = '<img src="img/tesoura.png">';
     }
 }
 
  function imprimirImagemJogador2(){
     if(jogadaJogador2 == 'papel'){
-        $campoJogador2.innerHTML = '<img src="papel.png">';
+        $campoJogador2.innerHTML = '<img src="img/papel.png">';
     }
     if(jogadaJogador2 == 'pedra'){
-        $campoJogador2.innerHTML = '<img src="pedra.png">';
+        $campoJogador2.innerHTML = '<img src="img/pedra.png">';
     }
     if(jogadaJogador2 == 'tesoura'){
-        $campoJogador2.innerHTML = '<img src="tesoura.png">';
+        $campoJogador2.innerHTML = '<img src="img/tesoura.png">';
     }
 }
 

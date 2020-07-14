@@ -25,10 +25,10 @@ let bot = false;
 
 function imprimirImagemJogador1(){
     if(jogadaJogador1 == 'papel'){
-        $campoJogador1.innerHTML = '<img src="../img/papel.png"></img>';
+        $campoJogador1.innerHTML = '<img src="../img/papel.png">';
     }
     if(jogadaJogador1 == 'pedra'){
-        $campoJogador1.innerHTML = '<img src="../img/pedra.png"></img>';
+        $campoJogador1.innerHTML = '<img src="../img/pedra.png">';
     }
     if(jogadaJogador1 == 'tesoura'){
         $campoJogador1.innerHTML = '<img src="../img/tesoura.png">';
